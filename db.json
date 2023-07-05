@@ -1,0 +1,127 @@
+{
+  "producto": [
+    {
+      "id": 4,
+      "nombre": "Alfa Multicamp",
+      "categoria": 2,
+      "codigo": "CHALM",
+      "modelo": "Alfa",
+      "color": "Militar",
+      "descripcion": "Un chaleco de dureza fuerte",
+      "precio": "150.90",
+      "imagen": 4
+    },
+    {
+      "nombre": "Delta 20",
+      "precio": "20.90",
+      "categoria": 1,
+      "color": "Negro",
+      "imagen": 14,
+      "stock": 10,
+      "descripcion": "Chaleco con accesorios",
+      "codigo": "de123",
+      "modelo": "2023",
+      "id": 5
+    },
+    {
+      "nombre": "Mochila de Viaje",
+      "precio": "10.80",
+      "categoria": 2,
+      "color": "Negro",
+      "imagen": 15,
+      "stock": 10,
+      "descripcion": "mochila de prueba",
+      "codigo": "aksjd123",
+      "modelo": "2023",
+      "id": 6
+    },
+    {
+      "nombre": "Chaleco especial",
+      "precio": "23.20",
+      "categoria": 1,
+      "color": "Verde",
+      "imagen": 1,
+      "stock": 12,
+      "descripcion": "Otro Chaleco",
+      "codigo": "123kjh",
+      "modelo": "2022",
+      "id": 7
+    }
+  ],
+  "imagenes": [
+    {
+      "id": 1,
+      "nombre": "https://i.postimg.cc/CKyCN9yX/279346036-1416136565505166-6103999301921957049-n.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "https://i.postimg.cc/Wzrqh1z4/280495660-1424128804705942-6650563501364044328-n.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "https://i.postimg.cc/1Xxfh1B1/280650469-1424128824705940-7101218649321015789-n.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "https://i.postimg.cc/FKBYpLJR/290548362-1458141461304676-7719683501890285441-n.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "https://i.postimg.cc/zG35jPwC/322475247-1559586227861359-4888582581913463503-n.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "https://i.postimg.cc/FsHQrnBM/alfa-a.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "https://i.postimg.cc/DwKf2c1L/DELTA_21_MULTICAN.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "https://i.postimg.cc/TYnLq19j/DSC_1032.frente_4.jpg  "
+    },
+    {
+      "nombre": "https://i.postimg.cc/gkwbLtv1/mochila_coyote_2021.jpg",
+      "id": 9
+    },
+    {
+      "nombre": "https://i.postimg.cc/xjphyG5H/DSC_1032._A_NEGRO.jpg",
+      "id": 10
+    },
+    {
+      "nombre": "https://i.postimg.cc/xjphyG5H/DSC_1032._A_NEGRO.jpg",
+      "id": 11
+    },
+    {
+      "nombre": "https://i.postimg.cc/gkwbLtv1/mochila_coyote_2021.jpg",
+      "id": 12
+    },
+    {
+      "nombre": "https://i.postimg.cc/NfMWq2yY/CHALECO_DELTA_7_COLOR_CAMELLO.jpg",
+      "id": 13
+    },
+    {
+      "nombre": "https://i.postimg.cc/DwKf2c1L/DELTA_21_MULTICAN.jpg",
+      "id": 14
+    },
+    {
+      "nombre": "https://i.postimg.cc/xjphyG5H/DSC_1032._A_NEGRO.jpg",
+      "id": 15
+    },
+    {
+      "nombre": "https://i.postimg.cc/85CMZG5p/tres_chalecos_alfa.jpg",
+      "id": 16
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Chaleco Antibala"
+    },
+    {
+      "id": 2,
+      "nombre": "Mochila Táctica"
+    }
+  ]
+}
