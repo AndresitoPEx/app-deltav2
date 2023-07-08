@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import axios from 'axios';
 
 const GetProducts = () => {
@@ -18,21 +19,25 @@ const GetProducts = () => {
 
   const renderItem = ({ item }) => {
     return (
+
       <View style={styles.itemContainer}>
         <Text style={styles.itemName}>{item.nombre}</Text>
         <Text style={styles.itemPrice}>{item.precio}</Text>
       </View>
+
     );
   };
 
   return (
-    <View style={styles.container}>
-      <FlatList
-        data={products}
-        renderItem={renderItem}
-        keyExtractor={item => item.id.toString()}
-      />
-    </View>
+    <SafeAreaView style={{ flex: 1 }}>
+      <View style={styles.container}>
+        <FlatList
+          data={products}
+          renderItem={renderItem}
+          keyExtractor={item => item.id.toString()}
+        />
+      </View>
+    </SafeAreaView>
   );
 };
 
@@ -40,6 +45,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    backgroundColor: 'darkgray',
   },
   itemContainer: {
     flexDirection: 'row',
