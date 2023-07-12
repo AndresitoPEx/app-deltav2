@@ -14,17 +14,27 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.deltaappv2",
+      "config": {
+        "googleSignIn": {
+          "clientId": "2785324345-grvhcs472pm9n91bq06botiva5r9jh9d.apps.googleusercontent.com"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme": "deltaappv2",
+    "extra": {
+      "eas": {
+        "projectId": "03389fe4-85cc-4600-bf39-93d0e42c9ee9"
+      }
+    },
+    "owner": "andresrtx"
   }
 }
